@@ -1,0 +1,47 @@
+
+.h1_corpo{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    padding: 5px;
+}
+
+.fundo_pagina{
+    background-image: url("../imgs/plano_de_fundo_tentativa_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.boas_vindas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./imgs/plano_de_fundo_tentativa_1.jpg");
+    background-color: white;
+    width: 60% ;
+    padding: 1%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.brain{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 50%;;
+    background-color: #0B84F6 ;
+}
+.img_svg1{
+    height: 100%;
+}
+.h1_p{
+    width: 50%;
+}
+.h1_p h1{
+    font-size: 20px;
+}
+

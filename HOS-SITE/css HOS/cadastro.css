@@ -1,0 +1,29 @@
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+    height: 75vh;
+    background-color:  black;
+    opacity: 0.85;
+}
+.background .medium{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    width: 70%;
+}
+.medium .div_dos_campos{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    padding: 2%;
+    border: 1px solid white;
+}
+.div_dos_campos{
+    height: 50%;
+}
+#selecionar_perfil{
+background-color:  turquoise;
+}
+

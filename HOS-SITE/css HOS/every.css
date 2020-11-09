@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-family: 'arial';
+    min-height: 100vh;
+}
+.cabecario{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    position: fixed;
+    opacity: 0.7;
+}
+.cabecario:hover{
+    opacity: 0.9;
+}
+.container_cabecario{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+}
+.h1_cabecario{
+    color: white;
+}
+.h1_cabecario:hover{
+    color: black;
+    cursor: pointer;
+}
+.h1_cabecario .L{
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+}
+.ul_cabecario{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+.ul_cabecario .li_cabecario{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.img_svg:hover{
+    opacity: 0.7;
+}
+.img_svg{
+    height: 20px;
+    opacity: 0.2;
+}
+.li_cabecario:hover{
+    color: black;
+    cursor: pointer;
+    display: flex;
+}
+.rodape{
+    flex: 1;
+    background-color: grey;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+    cursor: pointer;
+}
